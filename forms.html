@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML FORMS</title>
+    </head>
+    <body>
+        <form action="" method="post" enctype="multipart/form-data">
+            <label for="name">NAME:</label>
+            <input type="text" name="name" id="name" value="" required>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="name" id="email" placeholder="john@example.com">
+            <br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <label for="file">Upload File:</label>
+            <input type="file" name="file" id="file" accept=".pdf">
+            <br>
+            <input type="checkbox" id="student" value="I am a student">
+            <label for="student">I am a student</label> 
+            <br>
+            <input type="radio" value="male" id="gender" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" value="female" id="gender" name="gender"> 
+            <label for="female">Female</label>
+            <br>
+            <label for="car">Select a car Model</label>
+            <select name="car" id="car">
+                <option value=""></option>
+                <option value="Toyota">Toyota</option>
+                <option value="Mitsubishi">Mitsubishi</option>
+                <option value="Mazda">Mazda</option>
+            </select>
+            <br>
+            <textarea name="bio" id="bio" cols="25" rows="10" maxlength="10">
+        Type in your bio
+            </textarea>
+            <br>
+
+            <input type="submit" value="Save Detail">
+        
+        </form>
+    </body>
+</html>
