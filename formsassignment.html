@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>STUDENT_REGISTRATION</title>
+    </head>
+    <body>
+        <form action="">
+            <label for="name">Student Name</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <label for="DOB">Date Of Birth</label>
+            <input type="date" name="dob" id="dob" required>
+            <br>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="male" value="male" required>
+            <label for="gender"></label>
+            <input type="radio" name="gender" id="female" value="female">
+            <br>
+            <label for="Adress">Address:</label>
+            <textarea name="Address" id="Address" cols="30" rows="10" maxlength="50">
+            Type in Your Address
+            </textarea>
+            <br>
+            <label for="Telephone">Tel No</label>
+            <input type="tel" name="telephone" name="telephone" id="telephone">
+            <br>
+            <label for="Email">Email</label>
+            <input type="email" name="Email" id="email" value="email" placeholder="Ew@outlook.com" required>
+            <br>
+            <label for="course">Course</label>
+            <select name="course" id="course" required>
+                <option value="">Select a course</option>
+                <option value="Business">Business analytics</option>
+                <option value="IT">IT Essentials</option>
+                <option value="Biology">Biology</option>
+                <option value="Finance">Finance</option>
+                <option value="Economics">Economics and Finance</option>
+            </select>
+            <input type="submit" value="Register">
+            <input type="button" value="Cancel">
+        </form>
+    </body>
+</html>
